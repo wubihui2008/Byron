@@ -54,3 +54,23 @@ git fetch "remote_repository_name" "remote branch"
 
 #pull branch
 git pull "remote_repository_name" "remote branch":"local branch"
+
+#Show git config list
+git config --list
+
+#username&password setting
+git config  credential.helper store
+
+#git config local
+git config --local
+
+#git config global
+git config --global
+
+#git config add
+git config --add user.name "{user_name}"
+
+#git delete config
+git config --untset user.name
+
+
