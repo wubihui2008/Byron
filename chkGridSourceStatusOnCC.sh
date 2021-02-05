@@ -20,3 +20,4 @@ getRequestId
 echo $requestId
 getSignature
 echo $signature
+###Add by branch_2
