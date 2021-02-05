@@ -73,4 +73,14 @@ git config --add user.name "{user_name}"
 #git delete config
 git config --untset user.name
 
+#git commit record
+git log
+
+#revert 
+git reset --hard "{commit_id}"
+
+#recover to new version.git reflog to get commit id
+git reflog
+git reset --hard "commit_id"
+#
 
