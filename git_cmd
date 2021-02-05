@@ -1,0 +1,56 @@
+#add git repository
+git init {directory name}
+
+#add branch
+git branch "branch_name"
+
+#switch branch
+git checkout "branch_name"
+
+#Delete branch
+git branch -d "branch_name"
+
+#Delete branch forced
+git branch -D "branch_name"
+
+#Merge branch
+git merge "branch_name"
+
+#Check remote repository
+git remote -v
+
+#Check one remote repository
+git remote show "remote_repository_url"
+
+#Config remote repository
+git remote add "remote_repository_name" "remote_repository_url"
+
+#Delete remote repository
+git remote rm "remote_repository_url"
+
+#Add file to git
+git add "file_name"
+
+#Commit
+git commit "comments"
+
+#Push changes
+git push {remote_repository_name} {local branch}:{remote branch}
+
+#Tag
+git tag
+
+#Delete version
+git tag -d "tag_name"
+
+#Check remote version
+git tag -r
+
+#delete file
+git rm "file_name"
+
+#fetch branch
+git fetch "remote_repository_name" "remote branch"
+
+#pull branch
+git pull "remote_repository_name" "remote branch":"local branch"
